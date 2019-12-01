@@ -29,6 +29,7 @@ export default class CreateExercise extends Component {
 
   // Methods:
 
+  // retrieve users form the database
   componentWillMount() {
     axios.get('http://localhost:3000/users/')
   .then(response => {
